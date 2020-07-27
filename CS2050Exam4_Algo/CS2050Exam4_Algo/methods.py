@@ -25,7 +25,7 @@ def primeFactors(n):
     # number greater than 2 
             if n > 2: 
                 primeFac.append(n)
-            primeFac.append(temp)
+                primeFac.append(temp)
             return primeFac
     except ArithmeticError as err:
         return err.args
